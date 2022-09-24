@@ -16,3 +16,11 @@ for(i in 0:100) {
 var(x[,1])
 var(x[,2])
 var(x[,3])
+
+## importance sampling
+n = 1000
+x <- 1-log(runif(n))
+x <- x^2*exp(-x^2/2+x)
+1/(exp(1)*sqrt(2*pi))*mean(x)
+# standard deviation
+1/(exp(1)*sqrt(2*pi))*sd(x)
