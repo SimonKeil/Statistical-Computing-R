@@ -1,4 +1,4 @@
-# generate a multivariate normal distribution from a univariate standard normal distribution
+## generate a multivariate normal distribution from a univariate standard normal distribution
 # returns a matrix with a N(mu, sigma) distributed sample in every row
 rmvnorm <- function(n, mu, sigma) {
   m <- length(mu)

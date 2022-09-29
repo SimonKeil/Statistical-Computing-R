@@ -1,3 +1,4 @@
+## mixture of Gamma and a discrete distribution
 # choose one of five Gamma distributions following a specified distribution
 mixture_unif_gammas <- function(n) {
   prob = (1:5)/15

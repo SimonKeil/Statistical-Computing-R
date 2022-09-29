@@ -1,4 +1,4 @@
-## bootrsrap estimate of se and bias
+## bootstrap estimate of se and bias
 times = c(3, 5, 7, 18, 43, 85, 91, 98, 100, 130, 230, 487)
 
 lambda_hat = 1/mean(times)
